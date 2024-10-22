@@ -1,0 +1,21 @@
+.about-us {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 50px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 600px;
+    margin:auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+    color: #128d16;
+    text-align: center;
+}
+
+.about-us p {
+    line-height: 2;
+    margin: 10px 0;
+    text-align:justify;
+}
