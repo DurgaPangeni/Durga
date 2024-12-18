@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import"./navbar.css";
-import Footer from '../Footer/Footer';
+
 
 const Navbar = () => {
     
@@ -11,6 +11,7 @@ const Navbar = () => {
         <span class="icon">💊</span>
         <h1><a href='http://localhost:3000/Home'>Telemedicine</a></h1>
         </div>
+        <div>
         <ul>
             <li>
                 <NavLink to="/Home">Home</NavLink>
@@ -27,7 +28,11 @@ const Navbar = () => {
             <li>
                 <NavLink to="/Profile">Profile</NavLink>
             </li>
+            <li style = {{float:'right'}}>
+                <NavLink to="/LogInPage">Login</NavLink>
+            </li>
         </ul>
+        </div>
     </navbar>
  ) 
 }

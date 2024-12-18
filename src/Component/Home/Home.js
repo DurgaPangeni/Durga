@@ -1,8 +1,13 @@
 // rafce anf enter
-import React from 'react'
+import React, { useEffect } from 'react';
 import"./Home.css";
+import patient from "../../Assets/patient.jpg";
+
 
 const Home = () => {
+  useEffect(() =>{
+    document.title="Telemedicine";
+   },[]);
 
   return (
     <body>
@@ -13,7 +18,8 @@ const Home = () => {
     
     <section class="gallery">
         <div class="card">
-            <img src="../../Assets/patient.jpg" alt="Patient" />
+            {/* <img src="../../Assets/patient.jpg" alt="Patient" /> */}
+            <img src={patient} alt="patient" />
             <h3>For Patients</h3>
             <p>Access healthcare easily and safely from your home.</p>
             </div>
